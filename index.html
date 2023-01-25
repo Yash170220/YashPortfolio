@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Dusane</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo_1_-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="material-icons" onclick="closemenu()">cancel</i>
+            </ul>
+            <i class="material-icons" onclick="openmenu()">menu</i>
+        </nav>
+        <div class="header-text">
+            <p>Welcome</p>
+            <h1>Hi Myself <span>Yash</span> Dusane</h1>
+        </div>
+    </div>
+</div>
+<!---------about---------------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="logo.jpg" class="pic">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, blanditiis?</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">SKILLS</p>
+                    <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                    <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Science</span><br></li>
+                        <li><span>Machine Learning</span><br></li>
+                        <li><span>Python</span><br></li>
+                        <li><span>DBMS</span><br></li>
+                        <li><span>Web Development</span><br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher</span><br></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>SSC from CMS</li>
+                        <li><span>2020</span><br>HSC from Arihant College</li>
+                        <li><span>2021-2024</span><br> BE Computer Engineering from I2IT</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="material-icons">code</i>
+                <h2>Data Science</h2>
+                
+                <a href="">Learn More</a>
+            </div>
+            <div>
+                <i class="material-icons">computer</i>
+                <h2>Machine Learning</h2>
+               
+                <a href="">Learn More</a>
+            </div>     
+            <div>
+                <i class="material-icons">crop</i>
+                <h2>Deep Learning</h2>
+                <a href="">Learn More</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------projects------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="worl-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h2>Car Price Predictor</h2>
+                    <p>ML project using Linear Regression used to predict the resale price of cars.</p>
+                    <a href="https://github.com/Yash170220/Car-Price-Predictor"><i class="material-icons">link</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h2>House Price Predictor</h2>
+                    <p>ML project using Linear Regression used to predict the  price of house.</p>
+                    <a href="https://github.com/Yash170220/HousePricing"><i class="material-icons">link</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h2>Movie Recommandation System</h2>
+                    <p>In Progress</p>
+                    <a href="#"><i class="material-icons">link</i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+</div>
+<!------------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" >Contact Me</h1>
+                <p><i class="material-icons">email</i>dusaneryash17@gmail.com</p>
+                <p><i class="material-icons">phone</i>9766254784</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yash-dusane-00bbbb22b/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Yash170220"><i class="fa fa-github"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                </div>
+                <a href="Sample.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yash Dusane</p>
+    </div>
+</div>
+
+
+<script> 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemeu = getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
